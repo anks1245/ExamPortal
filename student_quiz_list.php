@@ -1,9 +1,8 @@
 <?php
-    include 'db_connect.php';
+   include 'db_connect.php';
    include 'auth.php';
-   include 'constants.php';
+//    include 'constants.php';
 
-   $cons = new Constants();
 ?>
 
 <!DOCTYPE html>
@@ -145,7 +144,7 @@
 		if(date==todayDate && currentTime<=endTime){
 			if(currentTime>=(date+' '+gtime)){
 				var url = 'answer_sheet.php?id=' + id;
-				var url = <?= $cons->URL ?>+'/answer_sheet.php?id=' + id;
+				var url = <?= URL ?>+'/answer_sheet.php?id=' + id;
 				var form = $('<form action="' + url + '" method="post">' +
 				'<input type="text" name="time_limit" value="' + endTime + '" />' +
 				'<input type="text" name="start_time" value="' + gtime + '" />' +

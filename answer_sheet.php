@@ -106,7 +106,7 @@
 						<li class="q-field list-group-item">
 							<strong class="text-dark"><?php echo ($i++). '. '; ?> <?php echo $row['question'] ?></strong><br>
 							<?php if($row['question_img']!=""){?>
-								<img src="http://localhost/ExamPortal/image_question/<?php echo $row['question_img']?>" style="min-width:50%; min-height:100px; max-width:100%; max-height:300px;">
+								<img src="<?= URL ?>image_question/<?php echo $row['question_img']?>" style="min-width:50%; min-height:100px; max-width:100%; max-height:300px;">
 								<!-- <img src="http://exam.step2knowledge.co.in/image_question/<?php //echo $row['question_img']?>" style="min-width:50%; min-height:100px; max-width:100%; max-height:300px;"> -->
 							<?php } ?>	
 							<input type="hidden" name="question_id[<?php echo $row['id'] ?>]" value="<?php echo $row['id'] ?>">
@@ -118,7 +118,7 @@
 									<label><input type="radio" name="option_id[<?php echo $row['id'] ?>]" value="<?php echo $orow['id'] ?>"> <?php echo $orow['option_txt'] ?></label>
 									<br>
 									<?php if($orow['option_img']!=""){?>
-										<img src="http://localhost/ExamPortal/image_answer/<?php echo $orow['option_img']?>" style="min-width:30%; min-height:100px; max-width:50%; max-height:200px;">
+										<img src="<?= URL ?>image_answer/<?php echo $orow['option_img']?>" style="min-width:30%; min-height:100px; max-width:50%; max-height:200px;">
 										<!-- <img src="http://exam.step2knowledge.co.in/image_answer/<?php //echo $orow['option_img']?>" style="min-width:30%; min-height:100px; max-width:50%; max-height:200px;"> -->
 									<?php } ?>		
 								</li>
