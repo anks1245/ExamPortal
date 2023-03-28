@@ -128,7 +128,7 @@
 									</select>
 								</div>
 								<?php else: ?>
-									<input type="hidden" name="user_id" />
+									<input type="hidden" name="user_id" value="<?= $_SESSION['login_id'] ?>"/>
 								<?php endif; ?>
 							</div>
 							<div class="modal-footer">
