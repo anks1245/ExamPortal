@@ -183,6 +183,7 @@
 				url:'./save_faculty.php',
 				method:'POST',
 				data:$(this).serialize(),
+				dataType:'json',
 				error:err=>{
 					console.log(err)
 					alert('An error occured')

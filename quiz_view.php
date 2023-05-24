@@ -1,10 +1,10 @@
+<?php include('auth.php') ?>
+<?php include('db_connect.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	</head>
 	<?php include('header.php') ?>
-	<?php include('auth.php') ?>
-	<?php include('db_connect.php') ?>
 	<title>Quiz List</title>
 
 	<?php 

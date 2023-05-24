@@ -1,14 +1,14 @@
-
-<!DOCTYPE html>
-<html>
-	<head>
-		<?php include('header.php') ?>
-        <?php 
+<?php 
         session_start();
         if(isset($_SESSION['login_id'])){
             header('Location:home.php');
         }
-        ?>
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<?php include('header.php') ?>
+        
 		<title>Login</title>
         <style>
         .whatsapp-contact{
