@@ -40,7 +40,7 @@
     <body>
         <?php //header('location:login.php') ?>
         <header class="bg-light mb-3">
-                <center><h2><u>Step2Knowledge Exam Portal</u></h2></center>
+                <center><h2><u>ExamFoxy</u></h2></center>
                 <center><h5>under SEP(Student-Enrichment-Program)</h5></center>
             <nav class="navbar navbar-light">
                 <div class="container-fluid d-flex justify-content-center">

@@ -1,6 +1,6 @@
 <div class="bg-primary" id="sidebar-wrapper">
             <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
-                <h6 style="color: whitesmoke;">S2K Exam Portal</h6>
+                <h6 style="color: whitesmoke;">ExamFoxy</h6>
             </div>
             <div class="list-group list-group-flush my-3">
                 <a href="home.php" class="list-group-item list-group-item-action bg-transparent second-text active">

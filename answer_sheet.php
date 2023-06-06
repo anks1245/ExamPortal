@@ -1,3 +1,4 @@
+<?php include('auth.php') ?>
 <?php 
  if(!$_SERVER['REQUEST_METHOD']=='POST'){
 	// header("Location: http://localhost/quiz2/quiz/student_quiz_list.php");
@@ -10,7 +11,6 @@
 <html lang="en">
 <head>
     <?php include('header.php') ?>
-	<?php include('auth.php') ?>
 	<?php include('db_connect.php') ?>
 	<?php 
 	$quiz = $conn->query("SELECT * FROM quiz_list where id =".$_GET['id']." order by RAND()")->fetch_array();
